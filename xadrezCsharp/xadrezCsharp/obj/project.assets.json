@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\eweri\\Desktop\\xadrez\\XadrezCsharp\\xadrez\\xadrezCsharp\\xadrezCsharp\\xadrezCsharp.csproj",
+      "projectUniqueName": "C:\\Users\\eweri\\Desktop\\agora vai\\XadrezSharpCoders\\xadrezCsharp\\xadrezCsharp\\xadrezCsharp.csproj",
       "projectName": "xadrezCsharp",
-      "projectPath": "C:\\Users\\eweri\\Desktop\\xadrez\\XadrezCsharp\\xadrez\\xadrezCsharp\\xadrezCsharp\\xadrezCsharp.csproj",
+      "projectPath": "C:\\Users\\eweri\\Desktop\\agora vai\\XadrezSharpCoders\\xadrezCsharp\\xadrezCsharp\\xadrezCsharp.csproj",
       "packagesPath": "C:\\Users\\eweri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\eweri\\Desktop\\xadrez\\XadrezCsharp\\xadrez\\xadrezCsharp\\xadrezCsharp\\obj\\",
+      "outputPath": "C:\\Users\\eweri\\Desktop\\agora vai\\XadrezSharpCoders\\xadrezCsharp\\xadrezCsharp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
