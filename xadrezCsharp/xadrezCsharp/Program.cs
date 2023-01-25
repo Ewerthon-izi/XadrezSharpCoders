@@ -1,6 +1,6 @@
 using xadrezCsharp;
-using xadrezCsharp.partida;
-using xadrezCsharp.tabuleiro;
+using xadrez;
+using tabuleiro;
 
 static void Main(string[] args)
 {
