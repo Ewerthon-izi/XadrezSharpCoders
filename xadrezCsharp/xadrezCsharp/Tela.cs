@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using xadrezCsharp.tabuleiro;
 using xadrezCsharp.partida;
-using xadrezCsharp.pecas;
 
 namespace xadrezCsharp
 {
