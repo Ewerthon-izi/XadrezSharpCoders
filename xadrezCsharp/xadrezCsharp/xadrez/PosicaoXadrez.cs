@@ -1,6 +1,6 @@
-﻿
+﻿using tabuleiro;
 
-namespace xadrezCsharp.tabuleiro
+namespace xadrez
 {
     class PosicaoXadrez
     {

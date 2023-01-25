@@ -1,22 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using xadrezCsharp.partida;
+﻿using tabuleiro;
 
-namespace xadrezCsharp.tabuleiro
+namespace xadrez
 {
-    class Bispo : Peca
+    class Torre : Peca
     {
-
-        public Bispo(Tabuleiro tab, Cor cor) : base(tab, cor)
+        public Torre(Tabuleiro tab, Cor cor) : base(tab, cor)
         {
         }
 
         public override string ToString()
         {
-            return "B";
+            return "T";
         }
 
         private bool podeMover(Posicao pos)
@@ -28,11 +22,10 @@ namespace xadrezCsharp.tabuleiro
         public override bool[,] movimentosPossiveis()
         {
             bool[,] mat = new bool[tab.linhas, tab.colunas];
-
             Posicao pos = new Posicao(0, 0);
 
-            // NO
-            pos.definirValores(posicao.Linha - 1, posicao.Coluna - 1);
+            //Acima
+            pos.definirValores(posicao.Linha - 1, posicao.Coluna );
             while (tab.posicaoValida(pos) && podeMover(pos))
             {
                 mat[pos.Linha, pos.Coluna] = true;
@@ -40,11 +33,11 @@ namespace xadrezCsharp.tabuleiro
                 {
                     break;
                 }
-                pos.definirValores(pos.Linha - 1, pos.Coluna - 1);
+                pos.Linha = pos.Linha - 1;
             }
 
-            // NE
-            pos.definirValores(posicao.Linha - 1, posicao.Coluna + 1);
+            //Abaixo
+            pos.definirValores(posicao.Linha + 1, posicao.Coluna);
             while (tab.posicaoValida(pos) && podeMover(pos))
             {
                 mat[pos.Linha, pos.Coluna] = true;
@@ -52,11 +45,11 @@ namespace xadrezCsharp.tabuleiro
                 {
                     break;
                 }
-                pos.definirValores(pos.Linha - 1, pos.Coluna + 1);
+                pos.Linha = pos.Linha + 1;
             }
 
-            // SE
-            pos.definirValores(posicao.Linha + 1, posicao.Coluna + 1);
+            //Direita
+            pos.definirValores(posicao.Linha, posicao.Coluna + 1);
             while (tab.posicaoValida(pos) && podeMover(pos))
             {
                 mat[pos.Linha, pos.Coluna] = true;
@@ -64,11 +57,11 @@ namespace xadrezCsharp.tabuleiro
                 {
                     break;
                 }
-                pos.definirValores(pos.Linha + 1, pos.Coluna + 1);
+                pos.Coluna = pos.Coluna + 1;
             }
 
-            // SO
-            pos.definirValores(posicao.Linha + 1, posicao.Coluna - 1);
+            //Esquerda
+            pos.definirValores(posicao.Linha, posicao.Coluna - 1);
             while (tab.posicaoValida(pos) && podeMover(pos))
             {
                 mat[pos.Linha, pos.Coluna] = true;
@@ -76,7 +69,7 @@ namespace xadrezCsharp.tabuleiro
                 {
                     break;
                 }
-                pos.definirValores(pos.Linha + 1, pos.Coluna - 1);
+                pos.Coluna = pos.Coluna - 1;
             }
 
             return mat;

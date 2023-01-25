@@ -1,14 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using xadrezCsharp.tabuleiro;
-
-
-namespace xadrezCsharp.tabuleiro
+﻿namespace tabuleiro
 {
-    public class Tabuleiro
+    class Tabuleiro
     {
         public int linhas { get; set; }
         public int colunas { get; set; }
@@ -65,7 +57,7 @@ namespace xadrezCsharp.tabuleiro
         public bool existePeca(Posicao pos)
         {
             validarPosicao(pos);
-            return Peca(pos) != null;
+            return peca(pos) != null;
         }
 
         public void validarPosicao(Posicao pos)

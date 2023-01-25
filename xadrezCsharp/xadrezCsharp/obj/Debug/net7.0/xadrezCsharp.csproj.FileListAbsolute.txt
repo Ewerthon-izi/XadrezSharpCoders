@@ -3,3 +3,8 @@ C:\Users\eweri\Desktop\xadrez\XadrezCsharp\xadrez\xadrezCsharp\xadrezCsharp\obj\
 C:\Users\eweri\Desktop\xadrez\XadrezCsharp\xadrez\xadrezCsharp\xadrezCsharp\obj\Debug\net7.0\xadrezCsharp.AssemblyInfoInputs.cache
 C:\Users\eweri\Desktop\xadrez\XadrezCsharp\xadrez\xadrezCsharp\xadrezCsharp\obj\Debug\net7.0\xadrezCsharp.AssemblyInfo.cs
 C:\Users\eweri\Desktop\xadrez\XadrezCsharp\xadrez\xadrezCsharp\xadrezCsharp\obj\Debug\net7.0\xadrezCsharp.csproj.CoreCompileInputs.cache
+C:\Users\eweri\Desktop\agora vai\XadrezSharpCoders\xadrezCsharp\xadrezCsharp\obj\Debug\net7.0\xadrezCsharp.csproj.AssemblyReference.cache
+C:\Users\eweri\Desktop\agora vai\XadrezSharpCoders\xadrezCsharp\xadrezCsharp\obj\Debug\net7.0\xadrezCsharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eweri\Desktop\agora vai\XadrezSharpCoders\xadrezCsharp\xadrezCsharp\obj\Debug\net7.0\xadrezCsharp.AssemblyInfoInputs.cache
+C:\Users\eweri\Desktop\agora vai\XadrezSharpCoders\xadrezCsharp\xadrezCsharp\obj\Debug\net7.0\xadrezCsharp.AssemblyInfo.cs
+C:\Users\eweri\Desktop\agora vai\XadrezSharpCoders\xadrezCsharp\xadrezCsharp\obj\Debug\net7.0\xadrezCsharp.csproj.CoreCompileInputs.cache

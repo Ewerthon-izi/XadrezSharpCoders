@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.ConstrainedExecution;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Globalization;
+using System.Runtime.Serialization.Formatters;
 
-namespace xadrezCsharp.tabuleiro
+namespace tabuleiro
 {
     abstract class Peca
     {
@@ -16,7 +12,7 @@ namespace xadrezCsharp.tabuleiro
 
         public Peca(Tabuleiro tab, Cor cor)
         {
-            posicao = null;
+            this.posicao = null;
             this.tab = tab;
             this.cor = cor;
             qteMovimentos = 0;
@@ -37,7 +33,7 @@ namespace xadrezCsharp.tabuleiro
             bool[,] mat = movimentosPossiveis();
             for (int i = 0; i < tab.linhas; i++)
             {
-                for (int j = 0; j < tab.colunas; j++)
+                for(int j = 0; j < tab.colunas; j++)
                 {
                     if (mat[i, j])
                     {
@@ -56,4 +52,3 @@ namespace xadrezCsharp.tabuleiro
         public abstract bool[,] movimentosPossiveis();
     }
 }
-

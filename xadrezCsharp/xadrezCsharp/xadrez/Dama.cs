@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using xadrezCsharp.partida;
+﻿using tabuleiro;
 
-namespace xadrezCsharp.tabuleiro
+namespace xadrez
 {
 
     class Dama : Peca
